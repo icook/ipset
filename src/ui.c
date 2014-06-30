@@ -97,7 +97,7 @@ const struct ipset_commands ipset_commands[] = {
 		.name = { "swap", "w", "-W" },
 		.has_arg = IPSET_MANDATORY_ARG2,
 		.help = "FROM-SETNAME TO-SETNAME\n"
-			"        Swap the contect of two existing sets",
+			"        Swap the content of two existing sets",
 	},
 	{	/* h[elp, --help, -H */
 		.cmd = IPSET_CMD_HELP,
